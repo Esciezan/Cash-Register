@@ -80,28 +80,12 @@
           </grid>
         </children>
       </tabbedpane>
-      <component id="dfdb0" class="javax.swing.JButton" binding="CHECKOUT_BUTTON">
-        <constraints>
-          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Button"/>
-        </properties>
-      </component>
       <component id="a9412" class="javax.swing.JRadioButton" binding="TAKEOUT_RADIOBUTTON">
         <constraints>
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="Takeout"/>
-        </properties>
-      </component>
-      <component id="74f66" class="javax.swing.JButton" binding="button1" default-binding="true">
-        <constraints>
-          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Button"/>
         </properties>
       </component>
       <component id="c5269" class="javax.swing.JRadioButton" binding="DINEIN_RADIOBUTTON">
@@ -111,6 +95,22 @@
         <properties>
           <selected value="false"/>
           <text value="Dine in"/>
+        </properties>
+      </component>
+      <component id="4ab0b" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="ba56e" class="javax.swing.JButton" binding="button2" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Button"/>
         </properties>
       </component>
     </children>

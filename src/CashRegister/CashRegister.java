@@ -1,6 +1,7 @@
 package CashRegister;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -18,10 +19,10 @@ public class CashRegister extends JFrame {
     private JButton CURLY_FRIES_BUTTON;
     private JPanel RECIEPT;
     private JTextPane Reciepttext;
-    private JButton CHECKOUT_BUTTON;
     private JRadioButton TAKEOUT_RADIOBUTTON;
     private JRadioButton DINEIN_RADIOBUTTON;
     private JButton button1;
+    private JButton button2;
     private JRadioButton FRIES;
 
     String EAT_STATUS="Reciept:";
@@ -69,7 +70,10 @@ public class CashRegister extends JFrame {
 
     public static void main(String[] args) {
         JFrame frame = new CashRegister("Cash Register");
-        frame.setSize(500, 500);
+        Point center = GraphicsEnvironment.getLocalGraphicsEnvironment().getCenterPoint();
+        int width = 1000;
+        int height = 1000;
+        frame.setBounds(center.x - width / 2, center.y - height / 2, width, height);
         frame.setVisible(true);
 
     }
