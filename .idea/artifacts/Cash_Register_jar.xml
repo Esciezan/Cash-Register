@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Cash Register:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Cash_Register_jar</output-path>
+    <root id="archive" name="Cash Register.jar">
+      <element id="module-output" name="Cash Register" />
+    </root>
+  </artifact>
+</component>

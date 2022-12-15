@@ -10,10 +10,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62364aa3-2b6a-47b2-8054-49d3674bd753" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/CashierProgram/Cashier.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CashierProgram/Cashier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CashierProgram/Images/Burgers/CHICKEN_BURGER.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CashierProgram/Images/Burgers/DELUXE_BURGER.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CashierProgram/Images/Drinks/APPLE_JUICE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CashierProgram/Images/Drinks/COKE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CashierProgram/Images/Fries/CURLY FRIES.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CashierProgram/Images/Fries/fries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CashierProgram/Images/Rice Meals/CHICK_FILLET.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CashierProgram/Images/Rice Meals/CHIKEN_DRUMSTICK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CashierProgram/Images/gui/LOGO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CashierProgram/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CashRegister/CashRegister.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/CashRegister/CashRegister.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CashRegister/CashRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CashRegister/CashRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CashRegister/menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CashRegister/menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CashRegister/CashRegister.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CashRegister/CashRegister.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CashRegister/Images/Fries/CURLY FRIES.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CashRegister/Images/Fries/fries.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CashRegister/menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,30 +51,34 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Io67l0OoJJhva1pfJncRCDc7se" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;365&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/thema/Documents/Java Programs/Cash Register&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propGUI&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "365",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/thema/Documents/Java Programs/Cash Register",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propGUI",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\thema\Documents\Java Programs\Cash Register\src\CashRegister\Images\Fries" />
@@ -78,11 +99,19 @@
       <workItem from="1670850980661" duration="368000" />
       <workItem from="1670904269741" duration="4168000" />
       <workItem from="1670909465220" duration="1070000" />
+      <workItem from="1671065740491" duration="1302000" />
+      <workItem from="1671069656903" duration="4151000" />
+      <workItem from="1671077429640" duration="7437000" />
+      <workItem from="1671098395195" duration="9884000" />
+      <workItem from="1671108389083" duration="5063000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -90,6 +119,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.IOException" package="java.io" />
+          <option name="timeStamp" value="2" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
