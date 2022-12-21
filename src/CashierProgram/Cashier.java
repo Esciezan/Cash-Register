@@ -4,12 +4,12 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.InputMethodListener;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -44,7 +44,11 @@ public class Cashier extends JFrame {
     private JPanel DRINKS_PANEL;
     private JButton APPLE_JUICE_BUTTON;
     private JButton COKE_BUTTON;
+    private JLabel CUSTOMER_CASH_LABEL;
+    private JTextField CUSTOMER_CASH_TEXTFIELD;
+    private JTextPane CUSTOMER_CASH_PANEL;
     private JRadioButton FRIES;
+    static int CASH_INPUT=0;
 
     public Cashier(String CASH_REGISTER) {
 
@@ -94,12 +98,13 @@ public class Cashier extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 CLEAR();
                 Reciepttext.setText(PRINT_CONTENT);
-                Reciepttext.setEnabled(true);
+                CUSTOMER_CASH_TEXTFIELD.setText("");
             }
         });
         CALC_BUTTON.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                CASH_INPUT= Integer.parseInt(CUSTOMER_CASH_TEXTFIELD.getText());
                 COMPLETE();
                 CREATE();
                 Reciepttext.setText(PRINT_CONTENT);
@@ -158,6 +163,14 @@ public class Cashier extends JFrame {
                 MENU_METHOD();
                 PRINT();
                 Reciepttext.setText(PRINT_CONTENT);
+            }
+        });
+        CUSTOMER_CASH_TEXTFIELD.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                CASH_INPUT= Integer.parseInt(CUSTOMER_CASH_TEXTFIELD.getText());
+                CUSTOMER_CASH_TEXTFIELD.setEnabled(false);
             }
         });
     }
@@ -219,7 +232,6 @@ public class Cashier extends JFrame {
                 Amount[6]++;
                 Total[6] = MENU_REGISTER.Price[6] * Amount[6];
                 if (Amount[6] <= 1) {
-
                     Content[6]= MENU_REGISTER.Menu[6] + "\t\t" + MENU_REGISTER.Price[6] + "\t";
             }
             break;
@@ -291,8 +303,10 @@ public class Cashier extends JFrame {
         for (int COMPLETELOOP = 0; COMPLETELOOP <= Total.length - 1; COMPLETELOOP++) {
             FinalTotal = FinalTotal + Total[COMPLETELOOP];
         }
+        int DIFFERENCE=0;
+        DIFFERENCE=CASH_INPUT-FinalTotal;
         PRINT_CONTENT = PRINT_CONTENT + "\n---------------------------------------------------------------------------------------------------------------\n\t\t\t              TOTAL: "
-                + FinalTotal + """
+                + FinalTotal +"\n\t\tCustomer Cash: " +CASH_INPUT +"\n\t\tChange: " +DIFFERENCE  +"""
                 \n
                 \t          Thanks For Eating with us 
                 \t           Hope to see more of you soon!

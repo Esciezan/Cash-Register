@@ -1,0 +1,15 @@
+		 PALIS FAST FOOD
+		 PANABO CITY
+		 DAVAO DEL NORTE
+		 For 
+---------------------------------------------------------------------------------------------------------------
+Regular Fries	55	1Pcs 	55
+Chicken Burger	80	1Pcs 	80
+
+---------------------------------------------------------------------------------------------------------------
+			              TOTAL: 135
+		Customer Cash: 1000000
+		Change: 999865
+
+	          Thanks For Eating with us
+	           Hope to see more of you soon!
